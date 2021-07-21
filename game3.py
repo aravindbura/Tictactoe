@@ -1,11 +1,5 @@
 from IPython.display import clear_output
 
-
-
-
-
-
-
 def display_board(board):
     clear_output()  # Remember, this only works in jupyter!
     
@@ -83,9 +77,6 @@ def player_choice(board):
         position = int(input('Choose your next position: (1-9) '))
         
     return position
-
-
-
 
 
 def replay():
