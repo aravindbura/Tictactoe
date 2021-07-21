@@ -1,5 +1,11 @@
 from IPython.display import clear_output
 
+
+
+
+
+
+
 def display_board(board):
     clear_output()  # Remember, this only works in jupyter!
     
@@ -36,6 +42,9 @@ def place_marker(board, marker, position):
 
 place_marker(test_board,'$',8)
 display_board(test_board)
+
+
+
 
 def win_check(board,mark):
     
